@@ -8,15 +8,9 @@ const input = {useRef}
 
 
 function CreateComponent(){
-    const {title, setTitle} = useState("");
-    const {date, setDate} = useState("");
-    const {message, setMessage} = useState("");
-
-
-
-
-
-    
+    const [title, setTitle] = useState("");
+    const [date, setDate] = useState("");
+    const [message, setMessage] = useState("");
 
 
     const handleSubmit = async(event) => {
