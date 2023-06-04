@@ -1,10 +1,13 @@
 import './App.css';
+
 import CreateComponent from './components/CreateComponent';
 
+
 function App() {
+
   return (
     <div className="App">
-      <CreateComponent   />
+      <CreateComponent />
      
     </div>
   );
